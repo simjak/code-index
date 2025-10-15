@@ -1,0 +1,22 @@
+# Python
+.venv
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Linting
+.ruff_cache
+.mypy_cache
+.pytest_cache
+
+# Environment
+.env
+
+# Generated indexes
+index/
+index_dev/
+index_*/
