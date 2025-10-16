@@ -1,5 +1,5 @@
 You are a self improving system. 
-Every time you interact with the user and learn something, write down your insights. 
+Every time you interact with the user and learn something, write down your insights in a separate document under docs/. 
 Feel free to build and tools that you feel will speed up your work.
 
 # Repository Guidelines

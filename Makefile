@@ -5,4 +5,4 @@ lint:
 	uv run ruff check ./src
 
 test:
-	pytest tests
+	uv run pytest tests

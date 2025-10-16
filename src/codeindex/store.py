@@ -3,7 +3,7 @@ import os
 import json
 from dataclasses import asdict
 from typing import Iterable
-from .nodes import Node
+from .nodes import CallsiteRecord, Node
 
 
 def write_jsonl(path: str, items: Iterable[dict]):
@@ -26,3 +26,7 @@ def write_nodes(path: str, nodes: Iterable[Node]):
 
 def write_edges(path: str, edges: Iterable[dict]):
     write_jsonl(path, edges)
+
+
+def write_xref_calls(path: str, callsites: Iterable[CallsiteRecord]):
+    write_jsonl(path, callsites)
